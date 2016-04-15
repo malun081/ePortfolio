@@ -1,10 +1,70 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Coursework page</title>
-    
-  </head>
-  <body>
-    <p>Hello</p>
-  </body>
+<html lang="en">
+  <!-- <head> ommited since it's no longer needed in html5 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8" />
+<title>My ePortfolio</title> 
+
+<!-- 
+The following "comment" is not really a comment but a piece of code so jscript works on IE9 and older, they call it "The Shiv".
+-->
+  
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+  
+<body>
+  <main>
+<header>
+    <h1>
+    <a href="">Miguel's ePortfolio</a></h1>  
+</header>
+  <nav>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Goals & Outcomes</a>
+       <!-- <ul>
+          <li><a href="">Short Term Goals</a></li> 
+          <li><a href="">Long Term Goals</a></li>
+        </ul> -->
+      </li>
+<!-- 
+I was trying to do a drop down menu but i kept getting errors and don't have time to fix it 
+-->
+      <li><a href="">Coursework</a></li>
+      <li><a href="">Outside the Classroom</a></li>
+      <li><a href="">More...</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <h2>Welcome!</h2>
+    <article>
+    <h2>About me</h2>
+      <figure>
+      <img src="http://i410.photobucket.com/albums/pp186/Miguel_Angel_Luna/My%20own%20picture_zpshy5t7f4j.jpg" alt="My picture" width="158" height="auto" />
+        <figcaption>Fig. 1 Just me.</figcaption>
+      </figure>
+      <p>I started my college education right after High School. However, I was not ready since I had yet to find my calling</p>
+    </article>
+  </section>
+  <aside>
+    <h2>Hobbies</h2>
+    <p>I like to do serveral things with my time such as going to the zoo. Here i a video made by my awesome girlfriend.</p>
+    <div class="video-container">
+   <iframe src="https://www.youtube.com/embed/TP1lg0OhqQU" frameborder="0" allowfullscreen>
+   </iframe>
+    </div>
+  </aside>
+  <footer>
+    <p>Created by: Miguel A. Luna</p>
+    <p>Contact me: <a href="blahblah@gmail.com">blahblah@gmail.com</a></p>
+  </footer>
+  <details>
+    <summary>Copyrights</summary>
+    <p>Background image owned by random person online</p>
+  </details>
+  </main>
+</body>
 </html>
