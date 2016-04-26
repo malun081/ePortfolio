@@ -5,3 +5,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.container{
+  background-color: white;
+}
