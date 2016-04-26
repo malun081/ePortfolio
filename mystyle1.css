@@ -1,14 +1,14 @@
 /*Custom CSS*/
 body {
   background-image: url("Wallpaper-eportfolio2.jpg");
-  background-color: white;
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .container{
   background-color: white;
   box-shadow: 2px 2px 2px;
-  height: 1200px;
+  
 }
 .picmal{
   float: left;
