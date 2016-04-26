@@ -8,6 +8,7 @@ body {
 .container{
   background-color: white;
   box-shadow: 2px 2px 2px;
+  height: 800px;
 }
 .picmal{
   float: left;
