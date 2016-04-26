@@ -3,4 +3,5 @@ body {
   background-image: url("Wallpaper-eportfolio2.jpg");
   background-color: black;
   background-repeat: no-repeat;
+  background-size: cover;
 }
